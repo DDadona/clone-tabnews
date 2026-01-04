@@ -8,7 +8,7 @@
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
-    "test:whatch": "jest --watch"
+    "test:whatch": "jest --watchAll"
   },
   "author": "",
   "license": "MIT",
@@ -16,6 +16,7 @@
     "docker": "^0.2.14",
     "next": "^16.1.1",
     "next.js": "^1.0.3",
+    "pg": "^8.11.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
